@@ -1,0 +1,27 @@
+LOOKMAX AI - HUONG DAN NHANH
+=============================
+
+Khong can cai dat gi. Chay tren Windows 10/11 voi Chrome hoac Edge.
+
+1. Giai nen file zip ra mot thu muc (vi du Desktop\Lookmax-AI).
+   KHONG chay truc tiep ben trong file zip.
+2. Nhap dup "Mo-Lookmax-AI.bat".
+   - Neu Windows hien "Windows protected your PC": bam "More info" -> "Run anyway".
+   - Trinh duyet se tu mo http://localhost:4173
+3. Giu cua so den mo trong khi dung. Dong cua so de tat app.
+
+Su dung
+- Chup bang webcam hoac tai anh khuon mat len (anh chinh dien la bat buoc).
+- Anh duoc phan tich NGAY TREN MAY CUA BAN, khong gui len Internet,
+  khong can tai khoan.
+- Sau lan mo dau tien, app chay duoc ca khi khong co mang.
+
+Du lieu
+- Lich su luu trong trinh duyet tren may nay. Moi nguoi/moi may co du lieu rieng.
+- Settings -> Export backup de sao luu. Xoa du lieu trinh duyet se mat lich su.
+
+Luu y
+- Diem so chi so sanh ty le hinh hoc 2D voi cac khoang tham chieu pho bien.
+  No KHONG danh gia muc do hap dan hay cau truc xuong, va khong phai loi khuyen y te.
+- Khong mo file index.html trong thu muc "app" truc tiep - se ra trang trang.
+  Luon mo bang "Mo-Lookmax-AI.bat".

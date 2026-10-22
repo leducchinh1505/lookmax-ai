@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; -webkit-tap-highlight-color: transparent; }
+html, body, #root { min-height: 100%; }
+body {
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(139, 92, 246, 0.12), transparent 60%),
+    radial-gradient(900px 500px at 110% 10%, rgba(59, 130, 246, 0.10), transparent 60%),
+    #0b0b12;
+  background-attachment: fixed;
+}
+
+@layer components {
+  .card { @apply rounded-2xl border border-white/[0.06] bg-ink-800/80 backdrop-blur-sm shadow-[0_8px_30px_rgba(0,0,0,0.35)]; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-medium transition active:scale-[0.98] disabled:opacity-40 disabled:pointer-events-none; }
+  .btn-primary { @apply btn bg-gradient-to-r from-accent to-accent-blue text-white shadow-lg shadow-accent/20 hover:brightness-110; }
+  .btn-ghost { @apply btn bg-white/5 text-slate-200 hover:bg-white/10; }
+  .btn-danger { @apply btn bg-red-500/15 text-red-300 hover:bg-red-500/25; }
+  .chip { @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-medium; }
+  .label { @apply text-xs uppercase tracking-wider text-slate-400; }
+  .input { @apply w-full rounded-xl border border-white/10 bg-ink-900 px-3 py-2 text-sm outline-none focus:border-accent; }
+}
+
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+.safe-top { padding-top: env(safe-area-inset-top); }

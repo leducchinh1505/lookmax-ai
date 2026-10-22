@@ -1,0 +1,13 @@
+node_modules/
+dist/
+release/
+dev-dist/
+certs/
+*.local
+*.tsbuildinfo
+.playwright-mcp/
+src-tauri/target/
+src-tauri/gen/
+# Large binary assets are re-created by `npm run setup:assets`
+public/mediapipe/
+public/models/
